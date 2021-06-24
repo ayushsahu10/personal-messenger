@@ -1,0 +1,28 @@
+.message {
+  padding: 10px;
+  margin: 10px;
+  width: fit-content;
+}
+
+.message__user {
+  margin-left: auto;
+  color: white;
+  text-align: left !important;
+}
+
+.message__userCard {
+  background-color: rgb(0, 132, 255) !important;
+  border-radius: 20px !important;
+  color: white !important;
+}
+
+.message__guestCard {
+  background-color: lightgray !important;
+  border-radius: 25px !important;
+}
+
+@media screen and (max-width: 800px) {
+  .MuiTypography-h5 {
+    font-size: 1.2em !important;
+  }
+}

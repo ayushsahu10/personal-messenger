@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+
+.app__form {
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  background-color: #e9e9eb;
+  width: 92%;
+  margin: 20px;
+  /* left: -15px; */
+  border-radius: 20px;
+}
+
+.app__formControl {
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.form__iconButton {
+  flex: 0;
+}
+
+.form__input {
+  flex: 1;
+}
+
+@media screen and (max-width: 800px) {
+  .App {
+    font-size: 0.8em;
+  }
+}
